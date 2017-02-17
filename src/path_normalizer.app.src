@@ -1,0 +1,14 @@
+{application, path_normalizer,
+ [
+  {description, "An Erlang path_normalizer library"},
+  {vsn, "1"},
+  {modules, [
+             path_normalizer
+            ]},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
